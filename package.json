@@ -1,0 +1,21 @@
+{
+  "author": "Mihai Tomescu <matomesc@gmail.com> (https://github.com/matomesc)",
+  "name": "hunch",
+  "description": "hunch http client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matomesc/hunch",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matomesc/hunch.git"
+  },
+  "main": "hunch.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
