@@ -100,13 +100,3 @@ function getAuthSig(queryDict, APP_SECRET) {
   var data = queries.join('&') + APP_SECRET;
   return crypto.createHash('sha1').update(data).digest('hex')
 }
-
-if (require.main === module) {
-  var c = exports.createClient(config)
-  var r = c.get_recommendations({ topic_ids: 'cat_tech' }, function (err, body, res) {
-    if (err) return console.log(err)
-    console.log(body)
-  })
-  // console.log(r.url)
-  // console.log(r.body.toString())
-}
