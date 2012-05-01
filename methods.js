@@ -1,5 +1,3 @@
-module.exports = {}
-
 var methods = [
   'get-recommendations',
   'get-results',
@@ -31,7 +29,3 @@ methods.forEach(function (m) {
   var m_ = m.split('-').join('_')
   module.exports[m_] = { full: m }
 })
-
-if (require.main === module) {
-  console.log(module.exports)
-}
