@@ -24,7 +24,7 @@ Hunch.prototype = {
     }
     var fullUrl = getUrl(method)
     var form = { app_id: this.options.app_id }
-    extend(form, params)
+    if (params) extend(form, params)
     // generate auth_sig
     form.auth_sig = getAuthSig(form, this.options.app_secret)
     var reqOpts = {
