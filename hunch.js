@@ -3,8 +3,6 @@ var request = require('request'),
     url = require('url'),
     crypto = require('crypto')
 
-var config = require('./config')
-
 exports.createClient = function (options) {
   return new Hunch(options)
 }
