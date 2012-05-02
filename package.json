@@ -2,7 +2,7 @@
   "author": "Mihai Tomescu <matomesc@gmail.com> (https://github.com/matomesc)",
   "name": "hunch",
   "description": "hunch http client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/matomesc/hunch",
   "repository": {
     "type": "git",
